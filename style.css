@@ -1,0 +1,117 @@
+html {
+  height: calc(90% + 30px);
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+h1 {
+    font-size: 40px;
+    font-weight:normal;
+    line-height: 1.2em;
+    color: #ffffff;
+    font-family: Century Gothic;
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+h2 {
+    font-size: 50px;
+    line-height: 1.2em;
+    color: #ffffff;
+    font-family: Century Gothic;
+    text-align: center;
+    letter-spacing: 3px;
+}
+
+h3 {
+  font-size: 40px;
+  font-weight: normal;
+  line-height: 1.2em;
+  color: #ffffff;
+  font-family: Century Gothic;
+  text-align: center;
+  letter-spacing: 2px;
+  max-width: 1050px;
+}
+
+body {
+    min-height: 100%;
+    overflow-x: hidden;
+    font-family: 'Century Gothic', 'Arial Narrow', Arial, sans-serif;
+    font-size: 15px;
+    background-color: #ffffff;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    background-image: url("bagr.JPG");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+  
+
+.profile img {
+    display: block;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+    border: 10px solid #0037af;
+}
+
+.topnav {
+  background-color: #0037af;
+  overflow: hidden;
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  
+}
+
+.topnav a {
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  box-sizing: border-box;
+}
+
+.right-options {
+  display: flex;
+}
+
+.right-options a {
+  margin-left: 10px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.topnav a.active {
+  background-color: #002574;
+  color: white;
+}
+
+.content {
+  min-height: calc(100% - 30px); 
+  background-color: #0037afab;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 30px;
+  margin-top: 30px; /* Add margin-top to create space */
+  margin-left: 15px;
+  margin-right: 15px;
+}
+

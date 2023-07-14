@@ -1,0 +1,23 @@
+.box3 {
+    display: inline-block;
+    padding: 15px 10px;
+    background-color: #002574; /* Set the desired box color */
+    border-radius: 10px;
+    transition: background-color 0.3s, color 0.3s; /* Added color transition */
+  }
+
+  .box3:hover {
+    background-color: #ddd; /* Set your desired highlight color here */
+  }
+
+  .box3:hover a {
+    color: black; /* Set the font color when hovering */
+  }
+
+  .box3 a {
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+  }
+
